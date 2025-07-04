@@ -3,6 +3,7 @@
 ## Logs
 
 - [Hack the Logs](https://www.hackthelogs.com/)
+- [Log Explanation](logs.md)
 
 ## Telemetry
 

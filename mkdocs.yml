@@ -103,6 +103,8 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
   social:
+    - icon: simple/tryhackme
+      link: https://tryhackme.com/p/reizu
     - icon: fontawesome/brands/x-twitter
       link: https://github.com/reizu-x
     - icon: fontawesome/brands/github

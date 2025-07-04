@@ -14,8 +14,9 @@ work:
         - More Certifications.
         - Enriching this Notes. 
     socials:
-        X: https://x.com/reizu_xo
+        x: https://x.com/reizu_xo
         github: https://github.com/reizu-x
+        tryhackme: https://tryhackme.com/p/reizu
     summary:
         - reizu is a Cyber Security Professional.
         - Worked in the cysec workspace for 3 years now.
