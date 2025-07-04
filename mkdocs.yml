@@ -1,0 +1,23 @@
+site_name: mkdocs-demo
+site_url: https://reizu-x.github.io/SOC-Notes/
+site_author: YOUR_NAME
+repo_name: reizu-x/SOC-Notes
+repo_url: https://github.com/reizu-x/SOC-Notes
+
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  features:
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Introduction: guides/intro.md
+      - Advanced Topics: guides/advanced.md
+  - Tutorials:
+      - Setup Guide: tutorials/setup.md
+      - Deployment Guide: tutorials/deployment.md
