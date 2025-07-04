@@ -12,3 +12,9 @@
 - [The Hacker Recipes](https://www.thehacker.recipes/)
 - [Exploit Notes](https://exploit-notes.hdks.org/)
 - [Hackviser](https://hackviser.com/tactics/pentesting)
+
+## Shells List
+
+- [p0wny shell](https://github.com/flozz/p0wny-shell)
+- [b374k](https://github.com/b374k/b374k)
+- [r57shell](https://www.r57shell.net/index.php)

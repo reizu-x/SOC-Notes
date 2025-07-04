@@ -11,6 +11,7 @@ theme:
     code: Coda Caption
   icon:
     logo: material/notebook-plus
+    annotation: material/arrow-right-circle-outline
   features:
     - navigation.footer
   palette:
@@ -39,6 +40,7 @@ markdown_extensions:
   - footnotes
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -82,8 +84,9 @@ nav:
 
   - Detection Engineering:
     - Notes: Detection Engineering/notes.md
-    - Tools: Detection Engineering/de-tools.md
     - Process: Detection Engineering/process.md
+    - Tools: Detection Engineering/de-tools.md
+    - Sigma: Detection Engineering/sigma.md
 
 extra:
   social:

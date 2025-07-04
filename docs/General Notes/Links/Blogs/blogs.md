@@ -4,6 +4,12 @@
 
 - [Detection at Scale](https://www.detectionatscale.com/)
 - [Detection Engineering](https://www.detectionengineering.net/)
+- [Summitroute](https://summitroute.com/blog/2016/11/22/how_to_write_security_alerts/) (1)
+    { .annotate }
+
+    1. About: How to write Security Alerts
+
+- [KQL Query](https://kqlquery.com/)
 
 ## Leadership Blog
 

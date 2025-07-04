@@ -16,7 +16,6 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-
 ```py title="add_numbers.py" linenums="1" hl_lines="6"
 # Function to add two numbers
 def add_two_numbers(num1, num2):
@@ -52,7 +51,6 @@ print('The sum is:', result)
 ??? info "collapsible callout"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc neque, hendrerit et tristique vitae, consectetur id elit. Proin vel massa volutpat, convallis diam vel, accumsan sapien. Curabitur sit amet augue quis eros posuere accumsan lacinia eu nisl. In at hendrerit dui, eget vestibulum ex. Integer pretium est lectus, id elementum turpis mattis ullamcorper. Phasellus elit nisl, pretium sit amet rutrum vel, facilisis vitae sapien. Vivamus ut felis vel urna rutrum ultricies. Nulla laoreet erat ut mauris tincidunt convallis. Nulla vehicula finibus blandit.
-
 
 ## Flowcharts
 

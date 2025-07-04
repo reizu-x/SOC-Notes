@@ -6,6 +6,7 @@
 - [JS Deobfuscator](https://obf-io.deobfuscate.io/)
 - [Powershell Gallery](https://www.powershellgallery.com/)
 - [Awesome Threat Intel](https://github.com/hslatman/awesome-threat-intelligence)
+- [xCyclopedia](https://strontic.github.io/)
 
 ## Github Tools Links
 
