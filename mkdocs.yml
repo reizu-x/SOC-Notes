@@ -1,23 +1,83 @@
 site_name: Cyber Security Notes
 site_url: https://reizu.mirei.se
-site_author: YOUR_NAME
+site_author: reizu
 repo_name: reizu-x/SOC-Notes
 repo_url: https://github.com/reizu-x/SOC-Notes
 
 theme:
   name: material
-  palette:
-    primary: 'indigo'
-    accent: 'indigo'
+  font:
+    text: Merriweather Sans
+    code: Coda Caption
+  icon:
+    logo: material/notebook-plus
   features:
-    - content.code.copy
-    - content.code.annotate
+    - navigation.footer
+
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+      primary: amber
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: blue
+      accent: deep purple
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format 
+  - pymdownx.tabbed:
+      alternate_style: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+
 
 nav:
+  - Test: sample.md
   - Home: index.md
-  - Guides:
-      - Introduction: guides/intro.md
-      - Advanced Topics: guides/advanced.md
-  - Tutorials:
-      - Setup Guide: tutorials/setup.md
-      - Deployment Guide: tutorials/deployment.md
+  - Cert List: cert.md
+  - General Notes:
+      - Detection: general/Detection Engineering/DE-List.md
+      - Programming: general/Programming/code-links.md
+  - Links:
+    - Tools:
+      - Tools: Links/Tools/tools.md
+      - Blue Team Tools:
+        - Links: Links/Tools/bt-tools.md
+      - Red Team Tools:
+        - Links: Links/Tools/rt-tools.md
+    - Blogs: Links/Blogs/blogs.md
+    - Archives: Links/Tools/archive.md
+
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/
