@@ -3,6 +3,7 @@
 ## Detection Engineer Blog
 
 - [Detection at Scale](https://www.detectionatscale.com/)
+- [Detection Engineering](https://www.detectionengineering.net/)
 
 ## Leadership Blog
 

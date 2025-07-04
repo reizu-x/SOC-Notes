@@ -33,6 +33,7 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -54,22 +55,32 @@ markdown_extensions:
       custom_checkbox: true
   - admonition
   - pymdownx.details
+  - footnotes
 
 
 nav:
-  - Test: sample.md
   - Home: index.md
   - Cert List: cert.md
   - General Notes:
-      - Detection: general/Detection Engineering/DE-List.md
+      - Notes: 
+        - Templates:
+          - Phishing Template: general/Notes/Templates/phishing Analysis Report Template.md
+        - Cheat Sheets:
+          - Powershell: general/Notes/Cheat Sheets/powershell.md
+          - Powershell Hex: general/Notes/Cheat Sheets/powershell-hex.md
+      - Detections:
+        - Process: general/Detection Engineering/process.md
       - Programming: general/Programming/code-links.md
   - Links:
     - Tools:
       - Tools: Links/Tools/tools.md
       - Blue Team Tools:
-        - Links: Links/Tools/bt-tools.md
-      - Red Team Tools:
-        - Links: Links/Tools/rt-tools.md
+        - Links: Links/Tools/Blue Team/bt-tools.md
+      - Red Team/Pentest Tools:
+        - Notes: Links/Tools/Red Team/notes.md
+        - Links: Links/Tools/Red Team/rt-tools.md
+      - Detection Engineering:
+        - Links: Links/Tools/Detection/DE-tools.md
     - Blogs: Links/Blogs/blogs.md
     - Archives: Links/Tools/archive.md
 
