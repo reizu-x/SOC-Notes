@@ -1,7 +1,9 @@
 # Certifications Check List
 
 ## Security Analyst Certifications
+
 ### Blue Team
+
 - [x] SC - 900
 - [ ] SC - 200
 - [ ] SC - 100
@@ -17,10 +19,12 @@
 - [ ] CompTIA CASP+ CE
 
 ### Red Team
+
 - [ ] eJPT
 - [ ] OSCP
 
 ## Udemy Check List
+
 - [x] Complete Ethical Hacking Bootcamp
 - [ ] Web Security & Bug Bounty: Learn Penetration Testing
 - [ ] 100 Days of Code: The Complete Python Pro Bootcamp

@@ -13,7 +13,6 @@ theme:
     logo: material/notebook-plus
   features:
     - navigation.footer
-
   palette:
     # Dark Mode
     - scheme: slate
@@ -33,7 +32,13 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - def_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -41,8 +46,6 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -50,41 +53,37 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format 
   - pymdownx.tabbed:
       alternate_style: true
-  - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-  - admonition
-  - pymdownx.details
-  - footnotes
-
 
 nav:
   - Home: index.md
   - Cert List: cert.md
+
   - General Notes:
-      - Notes: 
-        - Templates:
-          - Phishing Template: general/Notes/Templates/phishing Analysis Report Template.md
-        - Cheat Sheets:
-          - Powershell: general/Notes/Cheat Sheets/powershell.md
-          - Powershell Hex: general/Notes/Cheat Sheets/powershell-hex.md
-      - Detections:
-        - Process: general/Detection Engineering/process.md
-      - Programming: general/Programming/code-links.md
-  - Links:
-    - Tools:
-      - Tools: Links/Tools/tools.md
-      - Blue Team Tools:
-        - Links: Links/Tools/Blue Team/bt-tools.md
-      - Red Team/Pentest Tools:
-        - Notes: Links/Tools/Red Team/notes.md
-        - Links: Links/Tools/Red Team/rt-tools.md
-      - Detection Engineering:
-        - Links: Links/Tools/Detection/DE-tools.md
-    - Blogs: Links/Blogs/blogs.md
-    - Archives: Links/Tools/archive.md
+    - Notes:
+      - Cheat Sheets:
+        - PowerShell: General Notes/Notes/Cheat Sheets/powershell.md
+        - PowerShell Hex: General Notes/Notes/Cheat Sheets/powershell-hex.md
+      - Templates:
+        - Phishing Template: General Notes/Notes/Templates/phishing-template.md
+    - Links:
+      - Tools: General Notes/Links/Tools/tools.md
+      - Blogs: General Notes/Links/Blogs/blogs.md
+      - Archives: General Notes/Links/Tools/archive.md
 
+  - Blue Team:
+    - Notes: Blue Team/notes.md
+    - Links: Blue Team/bt-tools.md
 
+  - Red Team:
+    - Notes: Red Team/notes.md
+    - Links: Red Team/rt-tools.md
+
+  - Detection Engineering:
+    - Notes: Detection Engineering/notes.md
+    - Tools: Detection Engineering/de-tools.md
+    - Process: Detection Engineering/process.md
 
 extra:
   social:
