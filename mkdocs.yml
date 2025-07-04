@@ -87,6 +87,11 @@ nav:
     - Process: Detection Engineering/process.md
     - Tools: Detection Engineering/de-tools.md
     - Sigma: Detection Engineering/sigma.md
+  
+  - Programming:
+    - Links: Programming/code-links.md
+    - Python: Programming/python.md
+    - C++: Programming/c++.md
 
 extra:
   social:
