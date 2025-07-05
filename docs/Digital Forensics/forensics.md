@@ -186,6 +186,46 @@
 
 ### Forensic Data Integrity
 
+- Write Blockers
+    - Preserving the integrity of storage and devices
+    - Hardware or software
+    - Prevents any write commands that could alter data
+    - Analysis should be conducted on forensic images
+- Evidence Bags
+    - Contain and protect evidence
+    - Tamper-resistant / Tamper-evident
+    - Label for documenting case information
+- Legal Holds
+    - Litigation Hold
+    - Preserve relevant case data until resolution
+- Documentation
+    - Collection procedure, tools, condition, observations
+
 ### Chain of Custody
 
+- Tracks evidence throughout the entire investigation
+    - From analysis to presentation
+- Documents evidence possession
+    - Stakeholders, law enforcement, investigators, examiners
+    - Whenever evidence transfer, a chain of custody entry must be signed
+- Storage conditions
+    - Date
+    - Time reason
+    - Sending and receiving parties
+
 ### Common Windows Forensic Artifacts
+
+%SYSTEMROOT%\System32\Config
+
+| Default  | HKEY_USERS.Default           |
+| -------- | ---------------------------- |
+| SAM      | HKEY_LOCAL_MACHINE\SAM       |
+| SECURITY | HKEY_LOCAL_MACHINE\SECURITY  |
+| SOFTWARE | HKEY_LOCAL_MACHINE\SOFTWARE  |
+| SYSTEM   | HKEY_LOCAL_MACHINE\SYSTEM    |
+
+%USERPROFILE%
+
+| NTUSER.DAT | HKEY_CURRENT_USER      |
+| ---------- | ---------------------- |
+| SAM        | HKEY_LOCAL_MACHINE\SAM |
