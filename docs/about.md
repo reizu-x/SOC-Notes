@@ -21,5 +21,4 @@ work:
         - reizu is a Cyber Security Professional.
         - Worked in the cysec workspace for 3 years now.
         - Started the notes for myself.
-published: true
 ```

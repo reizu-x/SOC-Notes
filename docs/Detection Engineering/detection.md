@@ -1,4 +1,9 @@
-# Detection Rule Links
+# Detection Rules
+
+## Detections
+
+- [Detection.fyi](https://detection.fyi/)
+- [Detection.ai](https://detections.ai/)
 
 ## Sigma
 
@@ -8,5 +13,3 @@
 ## KQL
 
 - [Sentinel Queries](https://github.com/reprise99/Sentinel-Queries)
-- [Detection.fyi](https://detection.fyi/)
-- [Detection.ai](https://detections.ai/)

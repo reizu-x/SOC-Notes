@@ -76,6 +76,7 @@ nav:
   - Blue Team:
     - Notes: Blue Team/notes.md
     - Links: Blue Team/bt-tools.md
+    - Threat Hunting Links: Blue Team/threat-hunting.md
 
   - Red Team:
     - Notes: Red Team/notes.md
@@ -85,7 +86,12 @@ nav:
     - Notes: Detection Engineering/notes.md
     - Process: Detection Engineering/process.md
     - Tools: Detection Engineering/de-tools.md
-    - Sigma: Detection Engineering/sigma.md
+    - Detections:
+      - Detect: Detection Engineering/detection.md
+      - Tips: Detection Engineering/tips.md
+    - ADS Framework:
+      - Medium - ADS Framework: https://blog.palantir.com/alerting-and-detection-strategy-framework-52dc33722df2
+      - Github - ADS: https://github.com/palantir/alerting-detection-strategy-framework?tab=readme-ov-file
   
   - Programming:
     - Links: Programming/code-links.md
